@@ -1,0 +1,86 @@
+{
+   "appDescription": {
+      "description": "APP Introduction",
+      "message": "Notifier for Facebook, Gmail, Hotmail, Outlook, Yahoo, AOL... No passwords are required to this extension, for safety."
+   },
+   "appName": {
+      "description": "APP Name",
+      "message": "Super Notifier"
+   },
+   "connectedSites": {
+      "description": "Sites that have been connected to.",
+      "message": "Connected sites: "
+   },
+   "defaultFSites": {
+      "description": "Default chose sites to be notified of.",
+      "message": "[\"163\", \"crystalpot\"]"
+   },
+   "diagnose": {
+      "description": "When connection fails，the alternative link address will be shown here.",
+      "message": "Diagnose"
+   },
+   "helpAndFeedback": {
+      "description": "(Help&Suggestions)",
+      "message": "(Help & Suggestions)"
+   },
+   "helpLink": {
+      "description": "Help Name in Popup",
+      "message": "Help"
+   },
+   "loading": {
+      "description": "Loading",
+      "message": "Loading..."
+   },
+   "needUpgrade": {
+      "description": "tip for upgrading",
+      "message": "need upgrade."
+   },
+   "newMails": {
+      "description": "new mails",
+      "message": " new mails."
+   },
+   "newNotifications": {
+      "description": "new notifications",
+      "message": " new notifications."
+   },
+   "noNewMessageTip": {
+      "description": "No New Messages in Popup",
+      "message": "No new messages."
+   },
+   "notConnected": {
+      "description": "Unconnected tip",
+      "message": "Not connected!"
+   },
+   "op_always": {
+      "description": "",
+      "message": "Always"
+   },
+   "op_nosound": {
+      "description": "",
+      "message": "No Sound"
+   },
+   "op_once": {
+      "description": "",
+      "message": "From no message to some new messages"
+   },
+   "op_title": {
+      "description": "",
+      "message": "Sound Alert:"
+   },
+   "options": {
+      "description": "Options",
+      "message": "Options"
+   },
+   "optionsLink": {
+      "description": "Options Name in Popup",
+      "message": "Options"
+   },
+   "saveOptions": {
+      "description": "Save your settings",
+      "message": "Save"
+   },
+   "saveOptionsDoneTip": {
+      "description": "save Success",
+      "message": "Saved"
+   }
+}

@@ -1,0 +1,86 @@
+{
+   "appDescription": {
+      "description": "应用介绍",
+      "message": "新邮件提醒：Gmail,Facebook,Hotmail,Outlook,Yahoo,AOL,网易邮箱,Sohu邮箱,新浪微博,百度,百度贴吧，人人网。此工具不需要您输入任何网站的密码，安全可靠。"
+   },
+   "appName": {
+      "description": "应用名称",
+      "message": "超级提醒"
+   },
+   "connectedSites": {
+      "description": "Sites that have been connected to.",
+      "message": "已连接网站："
+   },
+   "defaultFSites": {
+      "description": "Default chose sites to be notified of.",
+      "message": "[\"163\", \"crystalpot\"]"
+   },
+   "diagnose": {
+      "description": "无法连接时，给出的修复链接地址",
+      "message": "诊断"
+   },
+   "helpAndFeedback": {
+      "description": "（使用帮助与意见反馈）",
+      "message": "（使用帮助与意见反馈）"
+   },
+   "helpLink": {
+      "description": "popup中的Help名称",
+      "message": "帮助"
+   },
+   "loading": {
+      "description": "加载中",
+      "message": "加载中..."
+   },
+   "needUpgrade": {
+      "description": "提示升级",
+      "message": "请升级此插件。"
+   },
+   "newMails": {
+      "description": "保存设置",
+      "message": "封新邮件"
+   },
+   "newNotifications": {
+      "description": "保存设置",
+      "message": "个新提醒"
+   },
+   "noNewMessageTip": {
+      "description": "popup无新消息显示",
+      "message": "无新消息."
+   },
+   "notConnected": {
+      "description": "检查提醒出错",
+      "message": "无法连接！"
+   },
+   "op_always": {
+      "description": "",
+      "message": "所有新消息"
+   },
+   "op_nosound": {
+      "description": "",
+      "message": "不要开声音"
+   },
+   "op_once": {
+      "description": "",
+      "message": "仅第一次有新消息时"
+   },
+   "op_title": {
+      "description": "",
+      "message": "声音提醒:"
+   },
+   "options": {
+      "description": "选项",
+      "message": "设置"
+   },
+   "optionsLink": {
+      "description": "popup中的Options名称",
+      "message": "设置"
+   },
+   "saveOptions": {
+      "description": "保存设置",
+      "message": "保存设置"
+   },
+   "saveOptionsDoneTip": {
+      "description": "保存设置成功",
+      "message": "设置已成功保存并已生效"
+   }
+}

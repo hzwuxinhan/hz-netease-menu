@@ -1,0 +1,83 @@
+<html><head>
+<meta charset="utf-8" />
+<style>
+	body a {
+		color: #444;font:14px/1.125 Arial,Helvetica,sans-serif;
+		white-space: nowrap;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	a:hover{
+		text-decoration: underline;
+	}
+	
+	.msg_box{
+		background:url(/js/line.gif) repeat-x bottom;
+		white-space: nowrap;
+	}
+	
+	ul{
+		margin: 0 0px;padding: 0;display: block;
+		list-style-type: disc;
+		-webkit-margin-before: 1em;
+		-webkit-margin-after: 1em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+		-webkit-padding-start: 2px;
+		line-height: 8px;
+	}
+	
+	li{
+		display: list-item;
+		text-align: right;
+		padding: 5px 3px;
+		padding-right:8px;
+		color: #595959;
+		line-height: 14px;
+		list-style: none;
+		white-space: nowrap;
+		font-size:13px;
+	}
+
+	.no_conn_error{
+		color:red;
+	}
+	
+	.msg_box li a {
+		color: #0078B6;
+	}
+    
+    .app{
+    	background:#fffffe;text-align:left;
+		font-family:Arial, 'Microsoft Yahei', Simsun, sans-serif;
+		line-height: 2px;
+		height: 5px;
+		white-space: nowrap;
+    }
+    
+    #helpAndOptions{
+    	width: 150px;
+		line-height: 2px;
+		height: 5px;
+		white-space: nowrap;    
+    }
+    
+</style>
+<script src="/js/jquery-1.4.2.min.js"></script>
+<script src="/js/popup.js"></script>
+</head>
+<body>
+<div id="tipContent"></div>
+
+<div id="helpAndOptions">
+	<a href="http://code.google.com/p/notifyall/wiki/HomePage?tm=6" target="_blank" i18ntext="helpLink">Help</a>
+
+	<span style="text-align:right">
+		<a href="#" id="action_open_options" i18ntext="optionsLink">Options</a>
+	</span>
+</div>
+
+</body></html>

@@ -3,21 +3,16 @@
       "page": "background.html",
       "persistent": false
    },
-   "browser_action": {
-      "default_icon": "/images/connected.png",
-      "default_popup": "popup.html"
-   },
+   
    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-   "default_locale": "zh_CN",
-   "description": "定时抓取菜单",
+   "description": "吃饭提醒",
    "icons": {
       "128": "images/icon128.png",
       "16": "images/icon16.png",
       "48": "images/icon48.png"
    },
    "manifest_version": 2,
-   "name": "hz-netease-menu",
-   "options_page": "options.html",
-   "permissions": [ "tabs", "cookies", "https://*/", "http://*//", "webNavigation", "alarms" ],
+   "name": "mealtime",
+   "permissions": ["cookies","tabs", "https://*/", "http://*//", "notifications", "alarms"],
    "version": "0.0.1"
 }

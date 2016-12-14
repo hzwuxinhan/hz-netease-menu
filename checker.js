@@ -2,7 +2,6 @@
 function crystalpotChecker () {
 
 	this.requestTimer = requestTimer;
-	this.startRequest = startRequest;
 
 	this.handleSuccess = function (data) {};
 	this.handleError = function (err) {};
@@ -11,8 +10,7 @@ function crystalpotChecker () {
 		this.init();
 	}
 	this.init = function () {
-		this.requestTimeout = 1*1000;
-		this.remindTime = [[11,30],[17,30]];
+		this.remindTime = [[11,35],[17,35]];
 		this.requestTimer(this);
 	};
 }
@@ -30,16 +28,31 @@ function requestTimer (that) {
 	})
 }
 
-function startRequest (){
-	// var html = $.ajax({ url: "http://crystalpot.cn/menus/0", async: false }).responseText;    
-	// $(".content").append(html);
-	console.log("end")
-} ;
-
 chrome.alarms.onAlarm.addListener(function() {
-  console.log("time up")
+  show();
 });
 
+chrome.notifications.onButtonClicked.addListener(function(notificationId,buttonIndex){
+	chrome.notifications.clear(notificationId);
+	chrome.tabs.create({
+		url:"http://crystalpot.cn/menus/0"
+	})
+})
+
+function show() {
+	chrome.notifications.create("notification",{
+	  	type:"basic",
+		iconUrl: 'images/icon48.png',
+		title:"吃饭啦！！！",
+		message:"每天都要喊吃饭，心好累",
+		contextMessage:"👇👇👇👇👇👇",
+		buttons:[{
+			title:"                        点击查看今日菜单"
+		}]
+  	});
+}
+
+// show()
 
 
 

@@ -8,8 +8,8 @@ gulp.task('clean', function () {
     return gulp.src('build').pipe(clean());
 })
 gulp.task('default', ['clean'], function () {
-    return gulp.src('*.*')
+    return gulp.src('*')
         .pipe(gulpif('*.js', uglify()))
-        .pipe(zip('hz-netease-menu.zip'))
+        //.pipe(zip('mealtime.zip'))
         .pipe(gulp.dest('build'));
 })
